@@ -7,7 +7,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 @Service
-public class dTopicService {
+public class TopicService {
 	private List<Topic> topics = new ArrayList(Arrays.asList(
 			new Topic("1", "Spring Boot", "Spring Boot Courses"),
 			new Topic("2", "Node", "Node.js Courses"),
